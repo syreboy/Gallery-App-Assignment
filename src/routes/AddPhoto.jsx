@@ -7,6 +7,7 @@ const AddPhoto = () => {
   const [secret, setSecret] = useState("");
   const [error, setError] = useState(null);
   const navigate = useNavigate();
+  const notFalse = true;
 
   const addPhoto = (e) => {
     e.preventDefault();
